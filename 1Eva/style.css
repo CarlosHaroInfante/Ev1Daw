@@ -1,0 +1,26 @@
+/* Hacer que el cuerpo ocupe toda la altura de la ventana */
+html,
+body {
+    height: 100%;
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+.texto {
+    margin-left: 10px; 
+}
+.imagen{
+   width: 500px; 
+   height: 500px;
+}
+/* El footer se mantiene al fondo */
+footer {
+    flex-shrink: 0;
+}
+
+span{
+    color: green;
+}
